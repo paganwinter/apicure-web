@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+</head>
+<body>
+<div id="mocha"></div>
+
+<!--
+https://medium.com/dailyjs/running-mocha-tests-as-native-es6-modules-in-a-browser-882373f2ecb0"
+-->
+
+<script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+<script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ajv/6.10.2/ajv.min.js"></script>
+<!--
+<script src="node_modules/chai/chai.js"></script>
+<script src="node_modules/mocha/mocha.js"></script>
+<script src="node_modules/ajv/dist/ajv.min.js"></script>
+-->
+
+
+<script src="lib/sample/api.js"></script>
+<script src="lib/sample/config.js"></script>
+<script src="lib/sample/test-data.js"></script>
+<script src="lib/utils.js"></script>
+
+<!-- <script> mocha.setup('bdd') </script> -->
+<script src="lib/test-runner.js"></script>
+<!-- <script> mocha.checkLeaks(); mocha.run() </script> -->
+</body>
+</html>

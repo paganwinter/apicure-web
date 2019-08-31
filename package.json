@@ -1,0 +1,20 @@
+{
+  "name": "mocha-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter lib/my-reporter",
+    "server": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "chai": "^4.2.0",
+    "handlebars": "^4.1.2",
+    "http-server": "^0.11.1",
+    "mocha": "^6.2.0"
+  }
+}
